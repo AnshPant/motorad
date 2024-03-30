@@ -1,0 +1,157 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    background-color: #d9e6fa; /* Set background color of the container */
+}
+
+.left-half {
+    flex: 1;
+    background-color: #4f6bebe8; /* Blue background */
+    color: #d9e6fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%); /* Apply clip-path for tilted effect */
+}
+
+
+.footer-icons {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons > * {
+    font-size: 24px;
+    margin: 0 10px; /* Adjust spacing between icons */
+    color: white;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#logo-name {
+    font-size: 6%;
+    color: white; 
+    margin-left: -40px;
+    margin-top: -40px
+
+}
+
+#logo-name b {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+
+
+  .right-half {
+    flex: 1;
+    background-color: #d9e6fa; /* Light background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    padding-top: 20px;
+
+}
+
+.login-label {
+    font-size: 30px;
+    font-weight: bolder; /* Adjust font-weight */
+    margin-bottom: 80px; /* Increase margin-bottom for more spacing */
+    color: black; /* Make the text black */
+}
+
+.sign-in-info {
+    font-size: 14px;
+    margin-bottom: 5px; /* Increase margin-bottom for more spacing */
+    color: #777; /* Lighter color */
+}
+
+.external-login-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add spacing below the external login buttons */
+}
+
+.external-login-btn {
+    width: calc(50% - 5px); /* Adjust width */
+    border-radius: 10px; /* Rounded rectangular shape */
+    background-color: white; /* White background */
+    color: black; /* Black text color */
+}
+
+.external-login-btn:hover {
+    background-color: #f0f2f5; /* Light background color on hover */
+}
+
+
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.primary-outlined-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4f6bebe8;
+    border-radius: 5px;
+    background-color: #4f6bebe8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.primary-outlined-btn:hover {
+    background-color: #0056b3;
+}
+
+.col {
+    text-align: center;
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.col:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.input-field {
+    width: 50%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #f0f2f5; /* Grey background color */
+}
+
+.input-field:focus {
+    outline: none; /* Remove focus outline */
+}

@@ -1,0 +1,68 @@
+.card {
+    background-color: rgba(255, 255, 255, 0.808); /* Slightly sky blue light color */
+    border-radius: 20px; /* More rounded corners */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px; /* Add margin between cards */
+    width: calc(25% - 20px); /* Adjust card width to occupy 25% of the container width */
+    border: 1px solid #d3d3d3; /* Grey border */
+    position: relative; /* Add position relative to position percentage */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadowing effect */
+  }
+  
+  .icon {
+    color: white; /* Adjust color to white */
+    font-size: 5px;
+    width: 20px; /* Set width and height to create a circle */
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Make icon rounded */
+  }
+  
+  .money {
+    background-color: #7ac142; /* Light green color */
+  }
+  
+  .exchange {
+    background-color: #fcb040; /* Light orange color */
+  }
+  
+  .likes {
+    background-color: #f7959e; /* Light pink color */
+  }
+  
+  .numbers {
+    background-color: #c3a6ff; /* Light purple color */
+  }
+  
+  .text {
+    margin-top: 10px;
+  }
+  
+  .title {
+    font-size: 14px;
+    color: #555; /* Adjust text color to less dark */
+    margin-bottom: 5px;
+  }
+  
+  .value {
+    font-size: 28px;
+    font-weight: bold;
+    color: black; /* Adjust text color to more dark */
+  }
+  
+  .percentage {
+    background-color: #a3f77a; /* Light green color */
+    color: #0b6623; /* Dark green text color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 4px 8px; /* Adjust padding for size */
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
